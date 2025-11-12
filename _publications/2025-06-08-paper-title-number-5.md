@@ -2,7 +2,7 @@
 title: "力学模块：经典运动与能量守恒"
 collection: publications
 category: modules
-permalink: /publication/mechanics-module
+permalink: /publications/mechanics-module
 excerpt: "本模块聚焦于经典力学的核心知识，涵盖牛顿运动定律、动量守恒与能量转化等关键概念。"
 date: 2025-11-11
 venue: "智绘物理 · 力学单元"
