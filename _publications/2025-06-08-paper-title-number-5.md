@@ -29,7 +29,7 @@ citation: "智绘物理团队 (2025). 『力学模块：经典运动与能量守
 请尝试调整物体的质量与初速度，观察不同条件下碰撞前后动量的变化情况。
 
 <iframe
-  src="/ZhiHuiPhysics.github.io/assets/interactive/optics/lens-sim/dist/index.html"
+  src="https://orange-0910.github.io/ZhiHuiPhysics.github.io/assets/interactive/optics/lens-sim/dist/index.html"
   width="100%"
   height="760"
   style="border:0; border-radius:12px;"
