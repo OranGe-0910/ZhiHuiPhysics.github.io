@@ -28,14 +28,14 @@ citation: "智绘物理团队 (2025). 『力学模块：经典运动与能量守
 下面的交互模型用于展示碰撞过程中系统动量的变化与守恒规律。  
 请尝试调整物体的质量与初速度，观察不同条件下碰撞前后动量的变化情况。
 
-<iframe
-  src="https://orange-0910.github.io/ZhiHuiPhysics.github.io/assets/interactive/optics/lens-sim/dist/index.html"
-  width="100%"
-  height="760"
-  style="border:0; border-radius:12px;"
-  loading="lazy"
-  allowfullscreen>
-</iframe>
+<div style="width:100%; max-width:1200px; margin: 0 auto;">
+  <iframe
+    src="https://orange-0910.github.io/ZhiHuiPhysics.github.io/assets/interactive/optics/lens-sim/dist/index.html"
+    style="width:100%; height:900px; border:0; border-radius:12px;"
+    loading="lazy"
+    allowfullscreen>
+  </iframe>
+</div>
 
 ### 学习提示
 - 在无外力作用的理想条件下，系统总动量保持不变  
