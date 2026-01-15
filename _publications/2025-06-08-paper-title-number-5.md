@@ -8,6 +8,7 @@ date: 2025-11-11
 venue: "智绘物理 · 力学单元"
 paperurl: "https://orange-0910.github.io/ZhiHuiPhysics.github.io/"
 citation: "智绘物理团队 (2025). 『力学模块：经典运动与能量守恒』. 智绘物理项目，大学物理创新教学系列."
+classes: wide
 ---
 
 力学模块是“智绘物理”项目的核心部分之一，主要展示物体运动与相互作用的动态规律。  
