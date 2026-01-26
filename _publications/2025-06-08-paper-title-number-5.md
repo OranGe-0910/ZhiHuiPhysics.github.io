@@ -43,6 +43,25 @@ classes: wide
 - 对比弹性碰撞与非弹性碰撞时能量变化的差异  
 - 结合公式 \( p = mv \) 思考质量与速度对动量的影响
 
+---
+
+## 绳拉船问题（速度分解交互模型）
+
+该模型展示“绳以恒定速度收紧”时，船的水平速度如何由几何关系决定。  
+请尝试改变绳速、绳长与夹角，观察速度分解示意图与船速变化。
+
+<iframe
+  src="https://orange-0910.github.io/ZhiHuiPhysics.github.io/assets/interactive/mechanics/boat-velocity/dist/index.html"
+  width="100%"
+  height="1050"
+  style="border:0; border-radius:12px;"
+  loading="lazy"
+  allowfullscreen>
+</iframe>
+
+👉 <a href="https://orange-0910.github.io/ZhiHuiPhysics.github.io/assets/interactive/mechanics/boat-velocity/dist/index.html" target="_blank">单独打开（更大更流畅）</a>
+
+
 
 未来版本中，本模块将支持用户通过浏览器直接操控仿真参数，  
 实现个性化的实验探索与数据观察体验。
