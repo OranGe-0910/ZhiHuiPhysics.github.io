@@ -36,6 +36,8 @@ classes: wide
     loading="lazy"
     allowfullscreen>
   </iframe>
+  
+  👉 <a href="https://orange-0910.github.io/ZhiHuiPhysics.github.io/assets/interactive/optics/lens-sim/dist/index.html" target="_blank">单独打开（更大更流畅）</a>
 </div>
 
 ### 学习提示
