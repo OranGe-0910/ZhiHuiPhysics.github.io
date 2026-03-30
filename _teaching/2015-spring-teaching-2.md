@@ -15,8 +15,7 @@ classes: wide
 电磁学模块展示电场、磁场与电磁波的动态规律，  
 通过交互式仿真与可视化模型，帮助学习者直观理解“看不见的场”。
 
-在本模块中，学习者不仅可以观察电磁现象，还可以通过调节参数，  
-亲自验证电场分布、电通量变化以及场与源之间的关系。
+在本模块中，学习者不仅可以观察电磁现象，还可以通过调节参数，亲自验证电场分布、电通量变化以及场与源之间的关系。
 
 ---
 
@@ -37,81 +36,79 @@ classes: wide
 
 ---
 
-<details>
-<summary><strong>⚡ 均匀带电圆环电场（交互模型）</strong></summary>
+<details open>
+  <summary><strong>⚡ 均匀带电圆环电场（交互模型）</strong></summary>
 
-<br>
+  <div style="margin-top:16px;">
+    <p>
+      该模型用于展示<strong>均匀带电圆环在轴线上产生的电场分布</strong>。  
+      通过调节位置与参数，可以观察电场强度如何随距离变化。
+    </p>
 
-该模型用于展示**均匀带电圆环在轴线上产生的电场分布**。  
-通过调节位置与参数，可以观察电场强度如何随距离变化。
+    <h3>🔍 建议观察</h3>
+    <ul>
+      <li>电场强度是否在某处达到最大值？</li>
+      <li>当距离增大时，圆环电场是否逐渐接近点电荷电场？</li>
+      <li>圆环结构的对称性如何在电场分布中体现？</li>
+    </ul>
 
-### 🔍 建议观察
-- 电场强度是否在某处达到最大值？
-- 当距离增大时，圆环电场是否逐渐接近点电荷电场？
-- 圆环结构的对称性如何在电场分布中体现？
+    <h3>🚀 大屏体验（推荐）</h3>
+    <p>
+      👉 <a href="https://orange-0910.github.io/ZhiHuiPhysics.github.io/assets/interactive/electromagnetism/electric-ring-field/dist/index.html" target="_blank">
+      点击这里全屏打开模型（更流畅）
+      </a>
+    </p>
 
-### 🚀 大屏体验（推荐）
-👉 <a href="https://orange-0910.github.io/ZhiHuiPhysics.github.io/assets/interactive/electromagnetism/electric-ring-field/dist/index.html" target="_blank">
-点击这里全屏打开模型（更流畅）
-</a>
-
-### 🧩 页面内体验
-
-<div style="width:100%; overflow:hidden; border-radius:16px; box-shadow:0 8px 25px rgba(0,0,0,0.15); margin-top:12px; background:#fff;">
-
-<iframe 
-  src="https://orange-0910.github.io/ZhiHuiPhysics.github.io/assets/interactive/electromagnetism/electric-ring-field/dist/index.html"
-  style="
-    width:140%;
-    height:900px;
-    border:none;
-    transform:scale(0.72);
-    transform-origin:top left;
-  ">
-</iframe>
-
-</div>
-
+    <h3>🧩 页面内体验</h3>
+    <div style="border-radius:16px; overflow:hidden; box-shadow:0 8px 24px rgba(0,0,0,0.12); background:#fff;">
+      <iframe
+        src="https://orange-0910.github.io/ZhiHuiPhysics.github.io/assets/interactive/electromagnetism/electric-ring-field/dist/index.html"
+        style="width:100%; height:760px; border:none; display:block;"
+        loading="lazy"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
 </details>
 
 <br>
 
 <details>
-<summary><strong>🧲 高斯定理与电通量互动演示</strong></summary>
+  <summary><strong>🧲 高斯定理与电通量互动演示</strong></summary>
 
-<br>
+  <div style="margin-top:16px;">
+    <p>
+      该模型用于展示<strong>高斯面内外电荷对电通量的影响</strong>，帮助理解高斯定理的核心思想：
+    </p>
 
-该模型用于展示**高斯面内外电荷对电通量的影响**，帮助理解高斯定理的核心思想：
+    <blockquote>
+      通过高斯面的总电通量，只与高斯面内的净电荷有关，与高斯面外的电荷无关。
+    </blockquote>
 
-> **通过高斯面的总电通量，只与高斯面内的净电荷有关，与高斯面外的电荷无关。**
+    <h3>🔍 建议观察</h3>
+    <ul>
+      <li>当高斯面内部只有正电荷时，电通量如何变化？</li>
+      <li>面外点电荷是否会改变总电通量？</li>
+      <li>改变电荷位置与电量后，合电场分布与电通量之间的关系如何体现？</li>
+    </ul>
 
-### 🔍 建议观察
-- 当高斯面内部只有正电荷时，电通量如何变化？
-- 面外点电荷是否会改变总电通量？
-- 改变电荷位置和电量后，合电场分布与电通量之间的关系如何体现？
+    <h3>🚀 大屏体验（推荐）</h3>
+    <p>
+      👉 <a href="https://orange-0910.github.io/ZhiHuiPhysics.github.io/assets/interactive/electromagnetism/gauss-theorem-demo/dist/index.html" target="_blank">
+      点击这里全屏打开模型（更流畅）
+      </a>
+    </p>
 
-### 🚀 大屏体验（推荐）
-👉 <a href="https://orange-0910.github.io/ZhiHuiPhysics.github.io/assets/interactive/electromagnetism/gauss-theorem-demo/dist/index.html" target="_blank">
-点击这里全屏打开模型（更流畅）
-</a>
-
-### 🧩 页面内体验
-
-<div style="width:100%; overflow:hidden; border-radius:16px; box-shadow:0 8px 25px rgba(0,0,0,0.15); margin-top:12px; background:#fff;">
-
-<iframe 
-  src="https://orange-0910.github.io/ZhiHuiPhysics.github.io/assets/interactive/electromagnetism/gauss-theorem-demo/dist/index.html"
-  style="
-    width:145%;
-    height:1050px;
-    border:none;
-    transform:scale(0.69);
-    transform-origin:top left;
-  ">
-</iframe>
-
-</div>
-
+    <h3>🧩 页面内体验</h3>
+    <div style="border-radius:16px; overflow:hidden; box-shadow:0 8px 24px rgba(0,0,0,0.12); background:#fff;">
+      <iframe
+        src="https://orange-0910.github.io/ZhiHuiPhysics.github.io/assets/interactive/electromagnetism/gauss-theorem-demo/dist/index.html"
+        style="width:100%; height:980px; border:none; display:block;"
+        loading="lazy"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
 </details>
 
 ---
@@ -120,9 +117,9 @@ classes: wide
 
 未来将继续加入更多电磁学核心模型，例如：
 
-- 法拉第电磁感应实验
-- 磁场分布三维可视化
-- 电磁波传播与极化
-- 天线辐射与场传播模型
+- 法拉第电磁感应实验  
+- 磁场分布三维可视化  
+- 电磁波传播与极化  
+- 天线辐射与场传播模型  
 
 逐步构建一个**完整的电磁学交互实验库**。
