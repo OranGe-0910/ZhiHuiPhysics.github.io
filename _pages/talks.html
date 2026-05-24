@@ -1,16 +1,36 @@
 ---
-layout: archive
-title: "Talks and presentations"
+layout: single
+title: "热学模块"
 permalink: /talks/
-author_profile: true
+author_profile: false
+classes: wide
 ---
 
-{% if site.talkmap_link == true %}
+<section class="zh-page-intro">
+  <p class="zh-kicker">Thermodynamics</p>
+  <h1>热学模块</h1>
+  <p>
+    本模块围绕热传递、分子热运动和热力学定律建设可视化内容，重点呈现温度、能量、功和熵等概念之间的关系。
+  </p>
+</section>
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+<section class="zh-section">
+  <h2>模型建设状态</h2>
+  <div class="zh-status-panel">
+    <strong>热学交互模型正在整理上线</strong>
+    <p>
+      当前模块已完成知识结构规划，后续将优先补充热传导、气体分子运动、卡诺循环与热机效率等交互模型。
+      页面保留为正式模块入口，便于汇报时呈现完整的课程模块框架。
+    </p>
+  </div>
+</section>
 
-{% endif %}
-
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+<section class="zh-section">
+  <h2>重点内容</h2>
+  <ul class="zh-clean-list">
+    <li>热传导与温度分布模拟</li>
+    <li>气体分子运动可视化演示</li>
+    <li>热力学第一定律与第二定律动态展示</li>
+    <li>卡诺循环与热机效率分析</li>
+  </ul>
+</section>

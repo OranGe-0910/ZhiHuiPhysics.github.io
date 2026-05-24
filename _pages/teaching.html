@@ -1,12 +1,75 @@
 ---
-layout: archive
-title: "Teaching"
+layout: single
+title: "电磁学模块"
 permalink: /teaching/
-author_profile: true
+author_profile: false
+classes: wide
 ---
 
-{% include base_path %}
+<section class="zh-page-intro">
+  <p class="zh-kicker">Electromagnetism</p>
+  <h1>电磁学模块</h1>
+  <p>
+    本模块面向电场、电通量与场源关系等抽象内容，通过可交互仿真帮助学习者观察电磁现象中的空间分布与守恒关系。
+  </p>
+</section>
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<section class="zh-section">
+  <h2>已上线模型</h2>
+
+  <details class="zh-model-card" open>
+    <summary>均匀带电圆环电场模型</summary>
+    <div class="zh-model-body">
+      <p>
+        模型展示均匀带电圆环在轴线上产生的电场分布，支持观察电场强度随空间位置变化的规律。
+      </p>
+      <div class="zh-model-meta">
+        <strong>建议观察点</strong>
+        <ul>
+          <li>电场强度是否在轴线上某一位置达到最大值。</li>
+          <li>距离较远时，圆环电场与点电荷电场的近似关系。</li>
+          <li>圆环对称性如何影响电场分布。</li>
+        </ul>
+      </div>
+      <p>
+        <a class="zh-link-button" href="https://orange-0910.github.io/ZhiHuiPhysics.github.io/assets/interactive/electromagnetism/electric-ring-field/dist/index.html" target="_blank" rel="noopener">单独打开模型</a>
+      </p>
+      <div class="zh-frame-wrap" style="--model-height: 760px;">
+        <iframe
+          src="https://orange-0910.github.io/ZhiHuiPhysics.github.io/assets/interactive/electromagnetism/electric-ring-field/dist/index.html"
+          title="均匀带电圆环电场模型"
+          loading="lazy"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </details>
+
+  <details class="zh-model-card">
+    <summary>高斯定理与电通量互动演示</summary>
+    <div class="zh-model-body">
+      <p>
+        模型展示高斯面内外电荷对电通量的影响，用于理解“总电通量只与闭合曲面内部净电荷有关”的核心结论。
+      </p>
+      <div class="zh-model-meta">
+        <strong>建议观察点</strong>
+        <ul>
+          <li>高斯面内部电荷变化时，总电通量如何改变。</li>
+          <li>高斯面外电荷是否影响通过闭合曲面的总电通量。</li>
+          <li>电场线分布与电通量统计之间的关系。</li>
+        </ul>
+      </div>
+      <p>
+        <a class="zh-link-button" href="https://orange-0910.github.io/ZhiHuiPhysics.github.io/assets/interactive/electromagnetism/gauss-theorem-demo/dist/index.html" target="_blank" rel="noopener">单独打开模型</a>
+      </p>
+      <div class="zh-frame-wrap" style="--model-height: 980px;">
+        <iframe
+          src="https://orange-0910.github.io/ZhiHuiPhysics.github.io/assets/interactive/electromagnetism/gauss-theorem-demo/dist/index.html"
+          title="高斯定理与电通量互动演示"
+          loading="lazy"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </details>
+</section>
