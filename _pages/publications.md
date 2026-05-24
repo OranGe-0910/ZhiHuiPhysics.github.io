@@ -37,6 +37,9 @@ hide_title: true
   <div class="zh-section-head">
     <p class="zh-kicker">Interactive Lab</p>
     <h2>交互模型实验区</h2>
+    <p>
+      本模块优先展示与运动学、几何约束和速度关系相关的交互模型，适合课堂讲解、课后探索和项目汇报展示。
+    </p>
   </div>
 
   <details class="zh-model-card" open>
@@ -82,11 +85,57 @@ hide_title: true
     </div>
   </details>
 
+  <details class="zh-model-card">
+    <summary>
+      <span>交互模型</span>
+      <strong>圆弧槽物理系统</strong>
+    </summary>
+    <div class="zh-model-body">
+      <p>
+        模型展示小球在圆弧槽中的运动过程。通过调节圆弧槽质量、小球质量、边长和动画速度等参数，
+        可以观察小球滑动到底端时的位移、速度、角度和运动时间变化。
+      </p>
+      <div class="zh-tag-row zh-tag-row--small">
+        <span>曲线运动</span>
+        <span>几何约束</span>
+        <span>运动学分析</span>
+      </div>
+      <div class="zh-model-meta">
+        <strong>建议观察点</strong>
+        <ul>
+          <li>小球在圆弧槽中运动时，理论位移与实际位移如何变化。</li>
+          <li>改变小球质量和圆弧槽质量后，系统运动结果是否发生明显变化。</li>
+          <li>改变边长参数后，小球滑到底端所需时间和运动轨迹如何变化。</li>
+          <li>模型中的速度、角度、位移和时间之间有什么对应关系。</li>
+        </ul>
+      </div>
+      <div class="zh-actions">
+        <a class="zh-button zh-button--ghost" href="#frame-arc-slot">页面内体验</a>
+        <a class="zh-button" href="https://orange-0910.github.io/ZhiHuiPhysics.github.io/assets/interactive/optics/lens-sim/dist/index.html" target="_blank" rel="noopener">全屏打开模型</a>
+      </div>
+      <div class="zh-frame-shell" id="frame-arc-slot" style="--model-height: 950px;">
+        <div class="zh-frame-bar">
+          <span>实验窗口</span>
+          <strong>圆弧槽物理系统</strong>
+        </div>
+        <div class="zh-frame-scroll">
+          <iframe
+            src="https://orange-0910.github.io/ZhiHuiPhysics.github.io/assets/interactive/optics/lens-sim/dist/index.html"
+            title="圆弧槽物理系统"
+            loading="lazy"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </details>
+
   <article class="zh-planned-card">
     <span class="zh-pill">后续模型</span>
     <h3>动量守恒与碰撞</h3>
     <p>
-      该模型将用于展示碰撞前后速度、动量与能量变化。当前仓库尚未提供独立交互模型路径，因此本页不嵌入占位 iframe，避免产生失效链接。
+      该模型将用于展示碰撞前后速度、动量与能量变化。当前仓库尚未提供独立交互模型路径，
+      因此本页暂不嵌入占位 iframe，避免产生失效链接。
     </p>
   </article>
 </section>
@@ -95,15 +144,15 @@ hide_title: true
   <div class="zh-use-grid">
     <div>
       <strong>课堂演示</strong>
-      <p>用于讲解速度分解、约束关系和物理量变化过程。</p>
+      <p>用于讲解速度分解、约束关系、曲线运动和物理量变化过程。</p>
     </div>
     <div>
       <strong>课后探索</strong>
-      <p>支持学习者调节参数，自主验证公式和图像关系。</p>
+      <p>支持学习者调节参数，自主验证公式、图像和运动过程之间的关系。</p>
     </div>
     <div>
       <strong>项目汇报</strong>
-      <p>可在投屏场景中快速展示交互模型的开发成果。</p>
+      <p>可在投屏场景中快速展示交互模型的开发成果和网页端运行效果。</p>
     </div>
   </div>
 </section>
