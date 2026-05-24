@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "zh-CN"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "智绘物理"
+title                    : "智绘物理｜大学物理交互式动画模型库"
 title_separator          : "-"
 name                     : &name "智绘物理项目组"
-description              : &description "面向大学物理核心概念的交互式动画模型库与项目展示网站"
+description              : &description "融合 AI 辅助设计、Manim 公式推导、前端交互模型和 GitHub Pages 部署的大学物理交互式可视化学习平台"
 url                      : https://orange-0910.github.io/ZhiHuiPhysics.github.io/ # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
