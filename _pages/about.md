@@ -19,7 +19,7 @@ redirect_from:
       建设面向课堂演示、课后探索和项目汇报的轻量化学习平台。
     </p>
     <div class="zh-actions">
-      <a class="zh-button" href="/publications/">进入模型库</a>
+      <a class="zh-button" href="https://orange-0910.github.io/ZhiHuiPhysics.github.io/publications/">进入模型库</a>
       <a class="zh-button zh-button--ghost" href="#technical-route">查看技术路线</a>
     </div>
   </div>
@@ -61,8 +61,9 @@ redirect_from:
       <span class="zh-tag">已上线 1 个模型</span>
       <h3>力学</h3>
       <p>展示速度分解、运动约束、碰撞与能量转化等经典运动规律。</p>
-      <a class="zh-card-link" href="/publications/">进入模块</a>
+      <a class="zh-card-link" href="https://orange-0910.github.io/ZhiHuiPhysics.github.io/publications/">进入模块</a>
     </article>
+
     <article class="zh-module-card zh-module-card--thermal">
       <div class="zh-card-icon" aria-hidden="true">
         <svg viewBox="0 0 80 80">
@@ -74,8 +75,9 @@ redirect_from:
       <span class="zh-tag">规划建设中</span>
       <h3>热学</h3>
       <p>围绕热流、温度分布、分子运动和热力学过程建设可视化实验。</p>
-      <a class="zh-card-link" href="/talks/">进入模块</a>
+      <a class="zh-card-link" href="https://orange-0910.github.io/ZhiHuiPhysics.github.io/talks/">进入模块</a>
     </article>
+
     <article class="zh-module-card zh-module-card--em">
       <div class="zh-card-icon" aria-hidden="true">
         <svg viewBox="0 0 80 80">
@@ -87,8 +89,9 @@ redirect_from:
       <span class="zh-tag">已上线 2 个模型</span>
       <h3>电磁学</h3>
       <p>通过电场线、电通量和高斯面演示空间场与源之间的关系。</p>
-      <a class="zh-card-link" href="/teaching/">进入模块</a>
+      <a class="zh-card-link" href="https://orange-0910.github.io/ZhiHuiPhysics.github.io/teaching/">进入模块</a>
     </article>
+
     <article class="zh-module-card zh-module-card--optics">
       <div class="zh-card-icon" aria-hidden="true">
         <svg viewBox="0 0 80 80">
@@ -100,7 +103,7 @@ redirect_from:
       <span class="zh-tag">已上线 1 个模型</span>
       <h3>光学</h3>
       <p>用光线追迹和透镜参数调节展示成像位置、大小与正倒关系。</p>
-      <a class="zh-card-link" href="/portfolio/">进入模块</a>
+      <a class="zh-card-link" href="https://orange-0910.github.io/ZhiHuiPhysics.github.io/portfolio/">进入模块</a>
     </article>
   </div>
 </section>
@@ -117,18 +120,21 @@ redirect_from:
       <h3>动量守恒与碰撞</h3>
       <p>面向碰撞前后速度、动量与能量变化的实验模型，作为力学模块后续重点扩展方向。</p>
     </article>
+
     <article class="zh-showcase-card">
       <span class="zh-pill">力学</span>
       <h3>绳拉船问题</h3>
       <p>观察绳速、夹角与船速之间的投影关系。</p>
       <a href="https://orange-0910.github.io/ZhiHuiPhysics.github.io/assets/interactive/mechanics/boat-velocity/dist/index.html" target="_blank" rel="noopener">全屏打开</a>
     </article>
+
     <article class="zh-showcase-card">
       <span class="zh-pill">电磁学</span>
       <h3>均匀带电圆环电场</h3>
       <p>观察圆环轴线上电场强度随距离变化的规律。</p>
       <a href="https://orange-0910.github.io/ZhiHuiPhysics.github.io/assets/interactive/electromagnetism/electric-ring-field/dist/index.html" target="_blank" rel="noopener">全屏打开</a>
     </article>
+
     <article class="zh-showcase-card">
       <span class="zh-pill">电磁学</span>
       <h3>高斯定理与电通量</h3>
