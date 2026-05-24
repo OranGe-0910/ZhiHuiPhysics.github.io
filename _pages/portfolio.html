@@ -1,14 +1,98 @@
 ---
-layout: archive
-title: "Portfolio"
+layout: single
+title: "光学模块"
 permalink: /portfolio/
-author_profile: true
+author_profile: false
+classes: wide
+hide_title: true
 ---
 
-{% include base_path %}
+<section class="zh-module-hero zh-module-hero--optics">
+  <div>
+    <p class="zh-kicker">Optics Module</p>
+    <h1>光学模块</h1>
+    <p>
+      面向透镜成像、光线追迹和折射关系，通过参数调节展示物距、像距、焦距和成像性质之间的联系。
+    </p>
+    <div class="zh-tag-row">
+      <span>透镜</span>
+      <span>光线追迹</span>
+      <span>折射</span>
+      <span>成像规律</span>
+    </div>
+  </div>
+  <div class="zh-hero-illustration" aria-hidden="true">
+    <svg viewBox="0 0 260 190">
+      <path d="M120 26 C82 72 82 118 120 164 M140 26 C178 72 178 118 140 164" fill="none" stroke="currentColor" stroke-width="7" stroke-linecap="round"/>
+      <path d="M18 58 h92 m0 0 l40 38 m-40 36 h-92 m92 0 l40 -36 m0 0 h92" fill="none" stroke="#19B5FE" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M150 96 h84" stroke="#123B7A" stroke-width="5" stroke-linecap="round"/>
+    </svg>
+  </div>
+</section>
 
+<section class="zh-section">
+  <div class="zh-section-head">
+    <p class="zh-kicker">Interactive Lab</p>
+    <h2>交互模型实验区</h2>
+  </div>
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+  <details class="zh-model-card" open>
+    <summary>
+      <span>重点模型</span>
+      <strong>薄透镜成像交互模型</strong>
+    </summary>
+    <div class="zh-model-body">
+      <p>
+        模型展示物体经薄透镜成像的光路变化，支持调节物距、焦距等参数，观察像的位置、大小和正倒关系。
+      </p>
+      <div class="zh-tag-row zh-tag-row--small">
+        <span>凸透镜</span>
+        <span>焦距</span>
+        <span>实像与虚像</span>
+      </div>
+      <div class="zh-model-meta">
+        <strong>建议观察点</strong>
+        <ul>
+          <li>物体位于不同位置时，实像与虚像如何变化。</li>
+          <li>焦距改变后，像距和放大率如何响应。</li>
+          <li>主光线作图与透镜成像公式之间的对应关系。</li>
+        </ul>
+      </div>
+      <div class="zh-actions">
+        <a class="zh-button zh-button--ghost" href="#frame-lens">页面内体验</a>
+        <a class="zh-button" href="https://orange-0910.github.io/ZhiHuiPhysics.github.io/assets/interactive/optics/lens-sim/dist/index.html" target="_blank" rel="noopener">全屏打开模型</a>
+      </div>
+      <div class="zh-frame-shell" id="frame-lens" style="--model-height: 950px;">
+        <div class="zh-frame-bar">
+          <span>实验窗口</span>
+          <strong>薄透镜成像</strong>
+        </div>
+        <div class="zh-frame-scroll">
+          <iframe
+            src="https://orange-0910.github.io/ZhiHuiPhysics.github.io/assets/interactive/optics/lens-sim/dist/index.html"
+            title="薄透镜成像交互模型"
+            loading="lazy"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </details>
+</section>
 
+<section class="zh-section">
+  <div class="zh-use-grid">
+    <div>
+      <strong>课堂演示</strong>
+      <p>用于讲解透镜成像规律和光线追迹方法。</p>
+    </div>
+    <div>
+      <strong>课后探索</strong>
+      <p>支持学习者调节物距与焦距，观察成像变化。</p>
+    </div>
+    <div>
+      <strong>项目汇报</strong>
+      <p>展示几何光学模型在网页端的交互表达效果。</p>
+    </div>
+  </div>
+</section>

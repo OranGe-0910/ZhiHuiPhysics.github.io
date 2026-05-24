@@ -1,23 +1,40 @@
 ---
-title: "光学模块：光的传播与干涉"
+title: "光学模块：透镜成像与光路分析"
 collection: portfolio
 category: modules
 permalink: /portfolio/optics-module
-excerpt: "本模块探讨光的传播、反射、折射与干涉现象的可视化展示。"
-date: 2025-06-11
-venue: "智绘物理 · 光学单元"
-paperurl: "https://orange-0910.github.io/ZhiHuiPhysics.github.io/"
-citation: "智绘物理团队 (2025). 『光学模块：光的传播与干涉』. 智绘物理项目，大学物理创新教学系列."
+excerpt: "本模块通过交互模型展示透镜成像、焦距调节和主光线路径。"
+author_profile: false
+classes: wide
+hide_title: true
 ---
 
-光学模块展示光的基本传播规律与典型干涉现象，  
-结合生成式AI与动画技术，帮助学习者可视化光的波动特性与几何光学原理。
+<section class="zh-module-hero zh-module-hero--optics">
+  <div>
+    <p class="zh-kicker">Optics Module</p>
+    <h1>光学模块：透镜成像与光路分析</h1>
+    <p>用光路可视化和参数调节展示物距、像距、焦距和成像性质之间的关系。</p>
+    <div class="zh-tag-row">
+      <span>透镜</span>
+      <span>光线追迹</span>
+      <span>成像规律</span>
+    </div>
+  </div>
+</section>
 
-重点内容包括：
-
-- 光的反射与折射动画  
-- 双缝干涉与衍射演示  
-- 透镜成像与焦距调节仿真  
-- 光纤传输与全反射展示  
-- 波动光学与干涉条纹可视化
-
+<details class="zh-model-card" open>
+  <summary><span>重点模型</span><strong>薄透镜成像交互模型</strong></summary>
+  <div class="zh-model-body">
+    <p>调节物距、焦距等参数，观察像的位置、大小和正倒关系。</p>
+    <div class="zh-actions">
+      <a class="zh-button zh-button--ghost" href="#frame-lens-detail">页面内体验</a>
+      <a class="zh-button" href="https://orange-0910.github.io/ZhiHuiPhysics.github.io/assets/interactive/optics/lens-sim/dist/index.html" target="_blank" rel="noopener">全屏打开模型</a>
+    </div>
+    <div class="zh-frame-shell" id="frame-lens-detail" style="--model-height: 950px;">
+      <div class="zh-frame-bar"><span>实验窗口</span><strong>薄透镜成像</strong></div>
+      <div class="zh-frame-scroll">
+        <iframe src="https://orange-0910.github.io/ZhiHuiPhysics.github.io/assets/interactive/optics/lens-sim/dist/index.html" title="薄透镜成像交互模型" loading="lazy" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</details>

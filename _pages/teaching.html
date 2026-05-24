@@ -1,12 +1,142 @@
 ---
-layout: archive
-title: "Teaching"
+layout: single
+title: "电磁学模块"
 permalink: /teaching/
-author_profile: true
+author_profile: false
+classes: wide
+hide_title: true
 ---
 
-{% include base_path %}
+<section class="zh-module-hero zh-module-hero--em">
+  <div>
+    <p class="zh-kicker">Electromagnetism Module</p>
+    <h1>电磁学模块</h1>
+    <p>
+      面向电场、电通量、高斯面和场源关系，使用交互式可视化帮助学习者理解空间场分布与守恒关系。
+    </p>
+    <div class="zh-tag-row">
+      <span>电场线</span>
+      <span>电通量</span>
+      <span>高斯定理</span>
+      <span>场源关系</span>
+    </div>
+  </div>
+  <div class="zh-hero-illustration" aria-hidden="true">
+    <svg viewBox="0 0 260 190">
+      <circle cx="130" cy="96" r="24" fill="currentColor"/>
+      <path d="M34 96 C68 42 192 42 226 96 C192 150 68 150 34 96Z" fill="none" stroke="#19B5FE" stroke-width="5"/>
+      <path d="M48 54 C90 92 90 102 48 138 M212 54 C170 92 170 102 212 138" fill="none" stroke="#2F80ED" stroke-width="5" stroke-linecap="round"/>
+      <path d="M82 96 h92 m-18 -16 l18 16 -18 16" fill="none" stroke="#123B7A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </div>
+</section>
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<section class="zh-section">
+  <div class="zh-section-head">
+    <p class="zh-kicker">Interactive Lab</p>
+    <h2>交互模型实验区</h2>
+  </div>
+
+  <details class="zh-model-card" open>
+    <summary>
+      <span>重点模型</span>
+      <strong>均匀带电圆环电场</strong>
+    </summary>
+    <div class="zh-model-body">
+      <p>
+        模型展示均匀带电圆环在轴线上产生的电场分布，支持观察电场强度随空间位置变化的规律。
+      </p>
+      <div class="zh-tag-row zh-tag-row--small">
+        <span>电场强度</span>
+        <span>轴线分布</span>
+        <span>对称性</span>
+      </div>
+      <div class="zh-model-meta">
+        <strong>建议观察点</strong>
+        <ul>
+          <li>电场强度是否在轴线上某一位置达到最大值。</li>
+          <li>距离较远时，圆环电场与点电荷电场的近似关系。</li>
+          <li>圆环结构的对称性如何影响电场分布。</li>
+        </ul>
+      </div>
+      <div class="zh-actions">
+        <a class="zh-button zh-button--ghost" href="#frame-ring">页面内体验</a>
+        <a class="zh-button" href="https://orange-0910.github.io/ZhiHuiPhysics.github.io/assets/interactive/electromagnetism/electric-ring-field/dist/index.html" target="_blank" rel="noopener">全屏打开模型</a>
+      </div>
+      <div class="zh-frame-shell" id="frame-ring" style="--model-height: 1100px;">
+        <div class="zh-frame-bar">
+          <span>实验窗口</span>
+          <strong>均匀带电圆环电场</strong>
+        </div>
+        <div class="zh-frame-scroll">
+          <iframe
+            src="https://orange-0910.github.io/ZhiHuiPhysics.github.io/assets/interactive/electromagnetism/electric-ring-field/dist/index.html"
+            title="均匀带电圆环电场模型"
+            loading="lazy"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </details>
+
+  <details class="zh-model-card">
+    <summary>
+      <span>交互模型</span>
+      <strong>高斯定理与电通量</strong>
+    </summary>
+    <div class="zh-model-body">
+      <p>
+        模型展示高斯面内外电荷对电通量的影响，用于理解总电通量与闭合曲面内部净电荷之间的关系。
+      </p>
+      <div class="zh-tag-row zh-tag-row--small">
+        <span>高斯面</span>
+        <span>电通量</span>
+        <span>闭合曲面</span>
+      </div>
+      <div class="zh-model-meta">
+        <strong>建议观察点</strong>
+        <ul>
+          <li>高斯面内部电荷变化时，总电通量如何改变。</li>
+          <li>高斯面外电荷是否影响通过闭合曲面的总电通量。</li>
+          <li>电场线分布与电通量统计之间的关系。</li>
+        </ul>
+      </div>
+      <div class="zh-actions">
+        <a class="zh-button zh-button--ghost" href="#frame-gauss">页面内体验</a>
+        <a class="zh-button" href="https://orange-0910.github.io/ZhiHuiPhysics.github.io/assets/interactive/electromagnetism/gauss-theorem-demo/dist/index.html" target="_blank" rel="noopener">全屏打开模型</a>
+      </div>
+      <div class="zh-frame-shell" id="frame-gauss" style="--model-height: 1250px;">
+        <div class="zh-frame-bar">
+          <span>实验窗口</span>
+          <strong>高斯定理与电通量</strong>
+        </div>
+        <div class="zh-frame-scroll">
+          <iframe
+            src="https://orange-0910.github.io/ZhiHuiPhysics.github.io/assets/interactive/electromagnetism/gauss-theorem-demo/dist/index.html"
+            title="高斯定理与电通量互动演示"
+            loading="lazy"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </details>
+</section>
+
+<section class="zh-section">
+  <div class="zh-use-grid">
+    <div>
+      <strong>课堂演示</strong>
+      <p>用于讲解电场、电通量和高斯定理的空间意义。</p>
+    </div>
+    <div>
+      <strong>课后探索</strong>
+      <p>支持学习者调节电荷位置与参数，自主验证规律。</p>
+    </div>
+    <div>
+      <strong>项目汇报</strong>
+      <p>集中展示项目中成熟度较高的电磁学交互成果。</p>
+    </div>
+  </div>
+</section>

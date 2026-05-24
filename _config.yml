@@ -7,16 +7,16 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
+locale                   : "zh-CN"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "智绘物理"
+title                    : "智绘物理｜大学物理交互式动画模型库"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+name                     : &name "智绘物理项目组"
+description              : &description "融合 AI 辅助设计、Manim 公式推导、前端交互模型和 GitHub Pages 部署的大学物理交互式可视化学习平台"
 url                      : https://orange-0910.github.io/ZhiHuiPhysics.github.io/ # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "https://github.com/rduhilgbruivl/ZhiHuiPhysics"
+repository               : "OranGe-0910/ZhiHuiPhysics.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "北邮智绘物理大创团队"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "面向大学物理教学场景建设交互式动画模型库"
   location         : "北京市昌平区"
   employer         : "北京邮电大学"
   uri              : # URL
@@ -48,13 +48,13 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "rduhilgbruivl"
+  github           : "OranGe-0910"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
